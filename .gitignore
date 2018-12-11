@@ -1,0 +1,9 @@
+*
+!*.yaml
+!scenes
+!.gitignore
+secrets.yaml
+known_devices.yaml
+cert.pem
+privkey.pem
+ip_bans.yaml

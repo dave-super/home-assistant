@@ -1,0 +1,36 @@
+title: The Supers
+background: center / cover no-repeat url("/background.png") fixed
+
+views:
+  - title: Example
+    id: example
+    background: radial_gradient(crimson, skyblue)
+    theme: dark-mode
+    cards:
+      - id: f935099fa7c4451c84895a63dc061b60  # Automatically created id
+        type: glance
+        entities:
+          - group.bathroom_switches
+          - group.outside_switches
+          - group.basement_switches
+          - group.bedroom_switches
+          - group.fans
+
+      - id: 68e3b974969a4a258bc21d53305d178e  # Automatically created id
+        type: entities
+        title: Bathroom Lights
+        entities:
+          - switch.switch
+
+      - id: 14723e01cfb54c75aeb219ccaaeb485f  # Automatically created id
+        type: glance
+        title: Doors
+        entities:
+          - entity: sensor.back_sliding_door
+            name: Back Slider
+          - entity: sensor.front_door
+            name: Front
+          - entity: sensor.garage_door
+            name: Garage
+          - entity: sensor.garage_mandoor
+            name: Mandoor
