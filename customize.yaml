@@ -88,8 +88,8 @@
    friendly_name: Basement Luminance
    icon: mdi:brightness-5 
  
- sensor.vision_zs5101_shock_and_vibration_sensor_alarm_level:
-   friendly_name: Dryer is....
+ #sensor.vision_zs5101_shock_and_vibration_sensor_alarm_level:
+ #  friendly_name: Dryer is....
 
  #switches
  switch.inovelli_nzw30_onoff_switch_switch:  

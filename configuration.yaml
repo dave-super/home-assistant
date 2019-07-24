@@ -37,18 +37,28 @@ frontend:
 config:
 
 sensor: !include_dir_list sensor/
-group: !include_dir_merge_named group/
+#group: !include_dir_merge_named group/
 automation: !include_dir_merge_list automations/
 #automation: !include automations.yaml
 camera: !include_dir_list cameras/
 switch: !include_dir_list switches/
 #input_boolean: !include_dir_list booleans/
-#input_boolean: 
-#  security_switch:
-#  name: Security Switch
-#  initial: on
+input_boolean: 
+  security_switch:
+    name: Security
+    initial: on
+
+  vacation_switch:
+    name: Vacation
+    initial: off
 
 sun: 
+
+
+weather:
+  - platform: darksky
+    api_key: !secret darksky_api
+    mode: daily
 
 http:
   ip_ban_enabled: true
@@ -181,7 +191,7 @@ logbook:
 map:
 
 # Track the sun
-sun:
+#sun:
 
 # Weather prediction
 #sensor:
