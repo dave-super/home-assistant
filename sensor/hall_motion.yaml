@@ -1,0 +1,5 @@
+platform: mqtt
+state_topic: /data/temp_log/hall_motion
+name: Upstairs Hallway
+icon: mdi:run
+value_template: "{{ value_json.cmd }}"

@@ -1,0 +1,8 @@
+   5n1_weather:
+     name: Local Weather
+     entities:
+      - sensor.outside_temperature
+      - sensor.outside_humidity
+      - sensor.wind_speed
+      - sensor.wind_direction  
+      - sensor.rainfall

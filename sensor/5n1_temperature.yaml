@@ -1,0 +1,6 @@
+platform: mqtt
+state_topic: /data/temp_log/mt56
+name: Outside Temperature
+unit_of_measurement: "°F"
+value_template: "{{ value_json.temperature_F }}"
+

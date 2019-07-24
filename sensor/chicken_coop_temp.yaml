@@ -1,0 +1,5 @@
+platform: mqtt
+state_topic: /data/temp_log/14336
+name: "Chicken Coop Temp"
+unit_of_measurement: "°C"
+value_template: "{{ value_json.temperature_C }}"

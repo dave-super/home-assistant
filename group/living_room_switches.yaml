@@ -1,0 +1,4 @@
+   livingroom_switches:
+     name: Living Room
+     entities:
+      - light.ge_12724_3way_dimmer_switch_level

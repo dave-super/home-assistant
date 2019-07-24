@@ -1,0 +1,10 @@
+platform: template
+sensors:  
+  dryer:
+    friendly_name: Dryer is .....
+    value_template: >-
+      {% if is_state("sensor.vision_zs5101_shock_and_vibration_sensor_alarm_level", "255") %}
+        Running
+      {% else %}
+        Not running
+      {% endif %}

@@ -1,0 +1,6 @@
+   motion_sensors:
+     name: Motion Sensors
+     entities:
+      - sensor.basement_motion_sensor
+      - sensor.basement_stairs_motion_sensor
+      - sensor.garage_motion_sensor

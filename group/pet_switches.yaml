@@ -1,0 +1,5 @@
+   pet_switches:
+     name: Pet Lights
+     entities:
+      - switch.chicken_coop_lig_switch
+      - switch.hank_hkzwso01_smart_plug_switch

@@ -1,0 +1,6 @@
+platform: mqtt
+name: Dryer
+#friendly_name: Dryer is .............
+state_topic: "sensor/dryer/status"
+#payload_on: "Running"
+#payload_off: "Stopped"

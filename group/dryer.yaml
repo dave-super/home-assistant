@@ -1,0 +1,10 @@
+   dryer:
+     name: Dryer Sensor
+     entities:
+       - sensor.dryer
+#       - switch.dryer
+#      - sensor.vision_zs5101_shock_and_vibration_sensor_alarm_level
+#      - sensor.vision_zs5101_shock_and_vibration_sensor_alarm_type
+#      - sensor.vision_zs5101_shock_and_vibration_sensor_appliance
+#      - sensor.vision_zs5101_shock_and_vibration_sensor_burglar
+#      - sensor.vision_zs5101_shock_and_vibration_sensor_system

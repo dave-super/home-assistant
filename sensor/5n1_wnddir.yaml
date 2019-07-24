@@ -1,0 +1,7 @@
+platform: mqtt
+state_topic: /data/temp_log/mt49
+name: Wind Direction
+icon: mdi:weather-windy
+#unit_of_measurement: "°C"
+value_template: "{{ value_json.wind_dir }}"
+

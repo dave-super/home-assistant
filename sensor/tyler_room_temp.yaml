@@ -1,0 +1,6 @@
+platform: mqtt
+state_topic: /data/temp_log/14391
+name: "Jabberwockys Room Temp"
+unit_of_measurement: "°C"
+value_template: "{{ value_json.temperature_C }}"
+#value_template: "{{ (value_json.temperature_C * (9/5)) + 32 }}"

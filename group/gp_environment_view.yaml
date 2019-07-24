@@ -1,0 +1,6 @@
+   environment_view:
+     name: Environment
+     view: yes
+     entities:
+      - group.environment
+      - group.5n1_weather

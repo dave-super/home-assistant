@@ -1,0 +1,11 @@
+platform: mqtt
+name: "Garage Door Opener"
+icon: mdi:toggle-switch
+command_topic: "sensor/garage/door-command"
+payload_on: "OPEN"
+payload_off: "CLOSE"
+state_on: "OPEN"
+state_off: "CLOSE"
+optimistic: false
+qos: 0
+retain: true

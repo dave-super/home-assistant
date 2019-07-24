@@ -1,0 +1,4 @@
+   fans:
+     name: Whole House Fan
+     entities:
+       - switch.inovelli_nzw30_onoff_switch_switch_2

@@ -1,0 +1,10 @@
+platform: template
+sensors:  
+  front_door:
+    friendly_name: Front Door
+    value_template: >-
+      {% if is_state("sensor.linear_wadwaz1_doorwindow_sensor_alarm_level", "255") %}
+        Open
+      {% else %}
+        Closed
+      {% endif %}

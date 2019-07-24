@@ -1,0 +1,11 @@
+platform: mqtt
+state_topic: /data/temp_log/master_window
+name: Master Bdrm Window
+icon: mdi:window-closed
+value_template: "{{ value_json.cmd }}"
+#value_template: >-
+#      {% if ("value_json.cmd", "172") %}
+#        Open
+#      {% elif ("value_json.cmd", "0") %}
+#        Closed
+#      {% endif %}

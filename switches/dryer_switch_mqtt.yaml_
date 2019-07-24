@@ -1,0 +1,8 @@
+platform: mqtt
+name: "Dryer"
+command_topic: "sensor/dryer/status"
+payload_on: "RUNNING"
+payload_off: "STOPPED"
+optimistic: false
+qos: 0
+retain: true

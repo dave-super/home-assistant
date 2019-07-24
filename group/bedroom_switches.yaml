@@ -1,0 +1,8 @@
+   bedroom_switches:
+     name: Bedroom Lights
+     entities:
+      - switch.anas_lights_switch
+      - switch.tylers_lights_switch
+      - switch.hank_hkzwso03_smart_plug_switch
+      - switch.hank_hkzwso03_smart_plug_switch_2
+      - switch.inovelli_nzw30_onoff_switch_switch

@@ -1,0 +1,3 @@
+platform: mqtt
+state_topic: sensor/garage/door-status
+name: Garage Door Open/Close

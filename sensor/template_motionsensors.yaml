@@ -1,0 +1,34 @@
+platform: template
+sensors:  
+  garage_motion_sensor:
+    friendly_name: Garage Motion Sensor
+    value_template: >-
+      {% if is_state("sensor.linear_wapirz1_motion_sensor_alarm_level", "255") %}
+        Running Giraffe
+      {% else %}
+        Still Hippopotamus
+      {% endif %}
+    icon_template: >
+      {% if is_state("sensor.linear_wapirz1_motion_sensor_alarm_level", "255") %}
+        icon_color: rgb(255,16,16)
+      {% else %}
+        icon_color: rgb(255,255,255)
+      {% endif %} 
+
+  basement_motion_sensor:
+    friendly_name: Basement Motion Sensor
+    value_template: >-
+      {% if is_state("sensor.vision_zp3111_multisensor_4in1_alarm_level", "255") %}
+        Running Giraffe
+      {% else %}
+        Still Hippopotamus
+      {% endif %}
+
+  basement_stairs_motion_sensor:
+    friendly_name: Basement Stairs Motion Sensor
+    value_template: >-
+      {% if is_state("sensor.linear_wapirz1_motion_sensor_alarm_level_2", "255") %}
+        Running Giraffe
+      {% else %}
+        Still Hippopotamus
+      {% endif %}

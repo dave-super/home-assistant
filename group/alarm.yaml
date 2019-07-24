@@ -1,0 +1,4 @@
+   alarm:
+     name: Alarm
+     entities:
+       - input_boolean.security_switch

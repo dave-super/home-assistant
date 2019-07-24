@@ -1,0 +1,14 @@
+   environment:
+     name: Environment Sensors
+     entities:
+      - sensor.jabberwockys_room_temp
+      - sensor.ana_room_temp
+      - sensor.linear_wapirz1_motion_sensor_temperature_2
+      - sensor.linear_wapirz1_motion_sensor_temperature
+      - sensor.vision_zp3111_multisensor_4in1_temperature
+      - sensor.vision_zp3111_multisensor_4in1_relative_humidity
+      - sensor.vision_zp3111_multisensor_4in1_luminance
+      - sensor.garage_temperature
+      - sensor.garage_humidity
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_apparent_temperature

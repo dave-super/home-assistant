@@ -1,0 +1,8 @@
+platform: mqtt
+state_topic: /data/temp_log/mt49
+name: Rainfall
+icon: mdi:weather-rainy
+#hidden: false
+unit_of_measurement: "\""
+value_template: "{{ value_json.rainfall_accumulation_inch }}"
+
